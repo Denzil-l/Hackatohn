@@ -52,7 +52,7 @@
 
 .start {
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 50px;
   width: 100%;
   min-height: 690px;
   display: flex;
@@ -105,7 +105,7 @@
   margin-top: 50px;
 }
 .start__list {
-  padding: 25px 115px;
+  padding: 25px 110px;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +120,7 @@
   text-align: center;
   font-family: "Inter";
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   margin: 10px 10px 0px;
 }
 .start__link:hover {
@@ -133,7 +133,7 @@
 .start__button {
   transition: 0.3s;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   width: 75px;
   height: 75px;
   position: relative;
@@ -198,16 +198,16 @@
      object-fit: contain;
 }
 .content-block__text {
-  text-align: justify;
+  text-align: left;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 150%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px 20px;
+  padding: 5px 25px;
   background-color: white;
 }
 .content-block__youtube {
@@ -222,7 +222,7 @@
 .block-line-left-right {
   width: 70%;
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .block-line-left-right img {
   width: 100%;
@@ -320,7 +320,7 @@
 }
 @media (max-width: 650px) {
   .header__title {
-    font-size: 10px;
+    font-size: 8px;
   }
   .content-block {
     height: 300px;
@@ -359,3 +359,8 @@
     height: 200px;
   }
 }
+
+p a{
+  color: rgb(211, 168, 70);
+}
+
