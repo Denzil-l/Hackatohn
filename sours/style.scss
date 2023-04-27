@@ -240,6 +240,13 @@
             height: 100%;
         }
     }
+    a{
+        transition: 0.3s;
+        color: rgb(25, 198, 25);
+    }
+    a:hover{
+        color: lime;
+    }
 }
 .block-line-left-right {
     width: 70%;

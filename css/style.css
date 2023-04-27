@@ -218,6 +218,13 @@
   width: 100%;
   height: 100%;
 }
+.content-block a {
+  transition: 0.3s;
+  color: rgb(25, 198, 25);
+}
+.content-block a:hover {
+  color: lime;
+}
 
 .block-line-left-right {
   width: 70%;
