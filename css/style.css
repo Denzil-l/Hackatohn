@@ -368,7 +368,7 @@
     width: 100%;
   }
   .content-block__text {
-    font-size: calc(7px + 0.5833333333vw);
+    font-size: calc(12px + 0.5833333333vw);
     text-align: center;
   }
   .content-block__youtube {
@@ -394,11 +394,8 @@
   .block-line-left-right {
     margin-top: 20px;
   }
-  .content-block {
-    height: 240px;
-  }
   .content-block__text {
-    font-size: calc(5px + 0.3333333333vw);
+    font-size: calc(10px + 0.3333333333vw);
   }
   .content-block__youtube {
     height: 200px;
