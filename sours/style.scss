@@ -152,7 +152,7 @@
     &__button {
         transition: 0.3s;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 50px;
         width: 75px;
         height: 75px;
         position: relative;
@@ -182,6 +182,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .content-block {
     width: 100%;
@@ -323,6 +324,28 @@
         margin: 25px;
     }
 }
+.button-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.button-top:hover{
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.28);
+    width: 36px;
+    height: 36px;
+}
 @media (min-width: 1440px){
     .content-block{
         &__text {
@@ -340,13 +363,18 @@
             padding: 10px;
         }
     }
-
     .content-block {
   
         &__youtube {
             height: 400px;
         }
     }
+    .button-top{
+        bottom: 5px;
+        right: 5px;
+        
+    }
+    
 }
 @media (max-width: 650px) {
     .header {
