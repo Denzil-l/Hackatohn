@@ -223,7 +223,7 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
-        font-size: 28px;
+        font-size: calc(10px + 12 * (100vw / 1280));
         line-height: 150%;
         display: flex;
         align-items: center;
@@ -337,10 +337,7 @@
     }
 
     .content-block {
-        &__text {
-            font-size: 22px;
-        }
-
+  
         &__youtube {
             height: 400px;
         }
@@ -356,10 +353,10 @@
     .content-block {
         height: 300px;
 
-        &__text {
-            font-size: 12px;
-        }
+        &__text{
+            font-size: calc(7px + 7 * (100vw / 1200));
 
+        }
         &__youtube {
             height: 250px;
         }
@@ -391,13 +388,11 @@
     }
 
     .content-block {
-        height: 200px;
+        height: 240px;
+        &__text{
+            font-size: calc(5px + 4 * (100vw / 1200));
 
-        &__text {
-            line-height: 100%;
-            font-size: 8px;
         }
-
         &__youtube {
             height: 200px;
         }
