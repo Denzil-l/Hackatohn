@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Marvel:regular,italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 .wrapper {
-  background: linear-gradient(rgb(245, 222, 179) 1%, rgb(251, 174, 29) 100%);
+  background: url("../images/baclground4.png");
   font-family: "Inter";
   min-height: 100%;
   width: 100%;
