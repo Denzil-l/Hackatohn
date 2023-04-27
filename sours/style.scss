@@ -183,7 +183,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .content-block {
     width: 100%;
     height: 500px;
@@ -324,7 +323,13 @@
         margin: 25px;
     }
 }
-
+@media (min-width: 1440px){
+    .content-block{
+        &__text {
+            font-size: 24px;
+    }
+}
+}
 @media (max-width: 950px) {
     .start {
         &__center {

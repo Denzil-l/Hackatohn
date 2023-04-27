@@ -304,6 +304,11 @@
   margin: 25px;
 }
 
+@media (min-width: 1440px) {
+  .content-block__text {
+    font-size: 24px;
+  }
+}
 @media (max-width: 950px) {
   .start__center {
     flex-direction: column;
