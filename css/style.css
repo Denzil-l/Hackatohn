@@ -102,7 +102,7 @@
      object-fit: contain;
 }
 .start__bottom {
-  margin-top: 50px;
+  margin-top: 15px;
 }
 .start__list {
   padding: 15px 15px;
@@ -224,6 +224,9 @@
   position: relative;
   margin-top: 50px;
 }
+.block-line-left-right h2 {
+  display: none;
+}
 .block-line-left-right img {
   width: 100%;
   height: 100%;
@@ -240,7 +243,7 @@
   justify-content: center;
   width: 70%;
   min-height: 800px;
-  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 14px 8px 2px rgba(0, 0, 0, 0.28);
   border-radius: 15px;
 }
 .block-x h2 {
@@ -386,5 +389,36 @@
   }
   .content-block__youtube {
     height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .block-line-left-right {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .block-line-left-right h2 {
+    display: inline;
+    position: relative;
+  }
+  .block-line-left-right h2::after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background: url("../images/stairs.png") no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .block-line-left-right img {
+    display: none;
   }
 }
